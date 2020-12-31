@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/dandelion
+DEVICE_PATH := device/xiaomi/angelicain
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -78,7 +78,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dandelion
+TARGET_OTA_ASSERT_DEVICE := angelicain
 
 # Avb
 BOARD_AVB_ENABLE := true
