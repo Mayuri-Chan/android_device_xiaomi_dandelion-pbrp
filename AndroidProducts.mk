@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/omni_angelicain.mk
+   $(LOCAL_DIR)/omni_angelica.mk
 
-COMMON_LUNCH_CHOICES := omni_angelicain-eng
+COMMON_LUNCH_CHOICES := omni_angelica-eng

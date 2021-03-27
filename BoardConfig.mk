@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/angelicain
+DEVICE_PATH := device/xiaomi/angelica
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
