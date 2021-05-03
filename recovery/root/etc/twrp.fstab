@@ -20,8 +20,8 @@ vendor                  /vendor     ext4
 /frp			emmc	/dev/block/platform/bootdevice/by-name/frp		flags=display="frp";backup=1
 /nvdata			ext4	/dev/block/platform/bootdevice/by-name/nvdata		flags=display="nvdata";backup=1
 /metadata		emmc	/dev/block/platform/bootdevice/by-name/metadata
-/cache			ext4	/dev/block/platform/bootdevice/by-name/cache
-/data			ext4	/dev/block/platform/bootdevice/by-name/userdata		flags=fileencryption=aes-256-cts
+/cache			f2fs	/dev/block/platform/bootdevice/by-name/cache
+/data			f2fs	/dev/block/platform/bootdevice/by-name/userdata		flags=fileencryption=aes-256-cts
 /hidden		ext4	/dev/block/platform/bootdevice/by-name/hidden   	flags=display="Hidden";backup=1
 
 /external_sd		auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1		flags=display="External SDcard";storage;wipeingui;removable;backup=0
