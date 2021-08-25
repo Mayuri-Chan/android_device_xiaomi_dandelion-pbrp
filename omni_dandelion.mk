@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/angelica
+DEVICE_PATH := device/xiaomi/dandelion
 
 # Release name
-PRODUCT_RELEASE_NAME := angelica
+PRODUCT_RELEASE_NAME := dandelion
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -29,10 +29,10 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/ro
     $(DEVICE_PATH)/prebuilt/dtb:dtb.img
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := angelica
-PRODUCT_NAME := omni_angelica
+PRODUCT_DEVICE := dandelion
+PRODUCT_NAME := omni_dandelion
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi 9C
+PRODUCT_MODEL := Redmi 9A
 PRODUCT_MANUFACTURER := xiaomi
 
 # HACK: Set vendor patch level
